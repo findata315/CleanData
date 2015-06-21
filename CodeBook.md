@@ -19,6 +19,7 @@ activities performed by each person, including
 * SITTING
 * STANDING
 * LAYING
+
 ## 3 tBodyAcc-mean()-X
 mean of time domain body acceleration on X-axis
 ## 4 tBodyAcc-mean()-Y
