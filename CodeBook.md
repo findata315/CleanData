@@ -1,16 +1,7 @@
-# Steps taken to get the tidy data set
-
-1. Read in the training and test data sets, then merge them into one data set 
-2. Extract only mean and standard deviation for each measurement 
-3. Replace the activity number with descriptive activity names 
-4. Label the resulting data set with corresponding variable names
-5. Manipulate the data by taking average of each variable for each activity and each subject
-
-
 # Data dictionary
 
 ## 1 subject
-a group of 30 volunteers within an age bracket of 19-48 years
+a group of 30 volunteers within an age bracket of 19-48 years, each volunteer is given an identifier from 1-30
 ## 2 activity
 activities performed by each person, including
 * WALKING
