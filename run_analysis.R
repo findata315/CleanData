@@ -35,6 +35,7 @@ var_names <- c(meanstd_var_names, "subject", "activity")
 names(hardata) <- var_names
 
 #Create a tidy data set with the average of each variable for each activity and each subject
+library(reshape2)
 harmelt <- melt(hardata, id = c("subject", "activity"))
 hartidy <- dcast(harmelt, subject + activity ~ variable, mean)
 ##Tidy data set has 180 obs. and 68 variables
